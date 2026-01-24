@@ -97,3 +97,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 **Creative Intelligence Suite** — Part of the [BMad Method](https://github.com/bmad-code-org/BMAD-METHOD) ecosystem.
+
+[![Contributors](https://contrib.rocks/image?repo=bmad-code-org/bmad-module-creative-intelligence-suite)](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite/graphs/contributors)
+
+See [CONTRIBUTORS.md](CONTRIBUTORS.md) for contributor information.

@@ -7,6 +7,12 @@ description: Step-by-step tutorials for Creative Intelligence Suite
 
 Learn the Creative Intelligence Suite through step-by-step tutorials.
 
-## Quick Start
+## Getting Started
 
-- **[Coming Soon]** - Your first creative workflow
+- **[Getting Started with CIS](getting-started.md)** — Install CIS and run your first brainstorming, design thinking, and innovation strategy sessions
+
+## Advanced Workflows
+
+- **[Coming Soon]** — Advanced storytelling techniques
+- **[Coming Soon]** — Combining multiple CIS workflows
+- **[Coming Soon]** — Creative Squad team collaboration

@@ -38,6 +38,19 @@ The Creative Intelligence Suite (CIS) extends BMad Method with tools for the fuz
 
 ---
 
+## Getting Started
+
+New to CIS? Start with the [Getting Started tutorial](/tutorials/getting-started.md) to learn how to:
+
+- Install CIS with BMad Method
+- Run your first brainstorming session
+- Apply design thinking to user challenges
+- Develop innovation strategies
+- Solve problems systematically
+- Craft compelling stories
+
+---
+
 ## Community
 
 - **[Discord](https://discord.gg/gk8jAdXWmj)** — Share your creative breakthroughs

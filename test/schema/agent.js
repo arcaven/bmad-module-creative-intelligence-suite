@@ -1,6 +1,6 @@
 // Zod schema definition for *.agent.yaml files
-const assert = require('node:assert');
-const { z } = require('zod');
+import assert from 'node:assert';
+import { z } from 'zod';
 
 const COMMAND_TARGET_KEYS = ['workflow', 'validate-workflow', 'exec', 'action', 'tmpl', 'data'];
 const TRIGGER_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
@@ -54,7 +54,7 @@ function validateAgentFile(filePath, agentYaml) {
   return schema.safeParse(agentYaml);
 }
 
-module.exports = { validateAgentFile };
+export { validateAgentFile };
 
 // Internal helpers ---------------------------------------------------------
 
@@ -459,9 +459,9 @@ function buildMenuItemSchema() {
  * @returns {string|null} Module slug if identifiable, otherwise null.
  */
 function deriveModuleFromPath(filePath) {
-  assert(filePath, 'validateAgentFile expects filePath to be provided');
-  assert(typeof filePath === 'string', 'validateAgentFile expects filePath to be a string');
-  assert(filePath.startsWith('src/'), 'validateAgentFile expects filePath to start with "src/"');
+  assert.ok(filePath, 'validateAgentFile expects filePath to be provided');
+  assert.ok(typeof filePath === 'string', 'validateAgentFile expects filePath to be a string');
+  assert.ok(filePath.startsWith('src/'), 'validateAgentFile expects filePath to start with "src/"');
 
   const marker = 'src/modules/';
   if (!filePath.startsWith(marker)) {

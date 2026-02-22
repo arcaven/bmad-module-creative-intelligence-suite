@@ -8,11 +8,15 @@
  * Exit codes: 0 = all tests pass, 1 = test failures
  */
 
-const fs = require('node:fs');
-const path = require('node:path');
-const yaml = require('yaml');
-const { validateAgentFile } = require('./schema/agent.js');
-const { glob } = require('glob');
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import yaml from 'yaml';
+import { validateAgentFile } from './schema/agent.js';
+import { glob } from 'glob';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // ANSI color codes
 const colors = {

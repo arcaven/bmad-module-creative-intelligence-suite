@@ -11,11 +11,15 @@
  *   project_root - Directory to scan (defaults to BMAD repo root)
  */
 
-const { glob } = require('glob');
-const yaml = require('yaml');
-const fs = require('node:fs');
-const path = require('node:path');
-const { validateAgentFile } = require('./schema/agent.js');
+import { glob } from 'glob';
+import yaml from 'yaml';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { validateAgentFile } from './schema/agent.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
  * Main validation routine

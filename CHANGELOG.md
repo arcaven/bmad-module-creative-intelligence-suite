@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.1.8 - Feb 23, 2026
+
+* Fix: use consistent YAML quoting in workflow descriptions
+
 ## v0.1.7 - Feb 22, 2026
 
 * Add AGENTS.md with comprehensive development documentation, architecture overview, and schema validation guidance
